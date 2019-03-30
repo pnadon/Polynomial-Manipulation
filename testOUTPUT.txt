@@ -1,0 +1,35 @@
+OUTPUT OF polyTEST.ss :
+
+First poly
+-5x^215 + 4x^100 - x^2 + 3
+
+Second poly
+2x^5 + 6x^2
+
+Test zero cases
+0
+0
+
+Test 1's
+x^9 + x^8 + x^7 + x^6 + x^5 + 1
+
+Test monomial case & -1
+-1
+
+Test multiplying monomial, 1's, and -1's
+-x^9 - x^8 - x^7 - x^6 - x^5 - 1
+
+Test addition, combining of terms
+-5x^215 + 4x^100 + 2x^5 + 5x^2 + 3
+-10x^215 + 8x^100 - 2x^2 + 6
+
+Test cases which result in coefficients of 0
+0
+0
+0
+0
+0
+
+Test other methods
+4x^10 + 24x^7 + 36x^4
+-1075x^214 + 400x^99 - 2x
